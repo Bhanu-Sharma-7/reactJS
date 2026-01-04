@@ -1,16 +1,14 @@
-# React + Vite
+# useEffect Hook - ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+useState toh data ko handle karta hai lekin useEffect ye handle karta hai ki koi kaam kab hona chahiye. Isse hum "Side Effects" manage karte hain.
 
-Currently, two official plugins are available:
+Asal zindagi ka example: Jaise hi aap subah uthte ho aap brush karte ho. Yeh ek reaction hai jo uthte hi hota hai.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## React mein iska use:
+- API se data fetch karna
+- Timer lagana: setTimeout/setInterval
+- Screen par kuchh badalne par koi specific function chalana
 
-## React Compiler
+## Mini Projcet: Digital Clock
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ye mini project ek real-time digital clock hai jo har second update hota hai
