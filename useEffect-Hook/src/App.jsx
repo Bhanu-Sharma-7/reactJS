@@ -7,7 +7,6 @@ const App = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTime(new Date().toLocaleTimeString())
-      console.log("Clock Updating....")
     }, 1000);
 
     return () => clearInterval(interval)
